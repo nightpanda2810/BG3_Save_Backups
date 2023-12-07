@@ -3,7 +3,9 @@
 
   
 
-Quick and dirty script to copy save files to desired destination, for Windows only. Noticed the cloud save with Gog dissapear after patch 5, as well as cloud save only backing up the LATEST campaign. Did this to make sure I never lost anything. Overwrites files per day.
+Quick and dirty script to copy save files to desired destination, for Windows only. Noticed the cloud save with Gog dissapear after patch 5, as well as cloud save only backing up the LATEST campaign. Did this to make sure I never lost anything. Overwrites files backed up on the same day, otherwise creates a new folder daily.
+
+You WILL need to clean up old backup folders yourself.
 
 Default save path is c:\users\USERNAME\OneDrive\BG3_Saves\CURRENT_DATE
 Runs every quarter hour (12:00, 12:15, etc.)
